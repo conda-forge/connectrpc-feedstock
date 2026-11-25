@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.10.1"
+  version: "0.13.0"
 
 package:
   name: connectrpc
@@ -10,7 +10,7 @@ package:
 source:
   # The sdist doesn't ship the tests.
   url: https://github.com/connectrpc/connect-python/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 882943ca957909ba77c7aa46161cab6e0fe43725da5db87fc489b7db4aa85312
+  sha256: cd9cc8c51efe27695a8a7041e79f18d8f38f06000833edc309280f1ca92e7ef5
 
 build:
   number: 0
